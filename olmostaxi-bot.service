@@ -1,0 +1,15 @@
+[Unit]
+Description=Olmos Taxi userbot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=REPLACE_WITH_YOUR_LINUX_USER
+WorkingDirectory=/opt/olmos-taxi-bot
+ExecStart=/opt/olmos-taxi-bot/venv/bin/python3 main.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
