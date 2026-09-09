@@ -1,2 +1,6 @@
 orders.db
 __pycache__/
+.env
+*.session
+*.session-journal
+venv/
