@@ -248,8 +248,7 @@ async def handle_group_message(client: Client, message: Message):
                 f"📞 <b>Aloqa:</b> {html.escape(sender_phone)}\n\n"
                 f"📍 <b>Guruh:</b> {html.escape(chat_title)}\n\n"
                 f"📋 <b>Buyurtma:</b>\n\n"
-                f"{html.escape(text)}\n\n"
-                "🔴 <b>BUYURTMANI QO'LGA KIRITISH UCHUN TEZROQ HARAKAT QILING!!!</b>"
+                f"{html.escape(text)}"
             )
 
             try:
@@ -344,8 +343,7 @@ async def simulate_test_orders():
                 f"📞 <b>Aloqa:</b> {html.escape(sender_phone)}\n\n"
                 f"📍 <b>Guruh:</b> {html.escape(chat_title)}\n\n"
                 f"📋 <b>Buyurtma:</b>\n\n"
-                f"{html.escape(text)}\n\n"
-                "🔴 <b>BUYURTMANI QO'LGA KIRITISH UCHUN TEZROQ HARAKAT QILING!!!</b>"
+                f"{html.escape(text)}"
             )
 
             # Yuborish
